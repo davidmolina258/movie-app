@@ -1,0 +1,12 @@
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 230px);
+  gap: 2rem;
+  padding: 40px;
+  justify-content: center;
+}
+@media screen and (max-width: 425px) {
+  .grid {
+    grid-template-columns: 100%;
+  }
+}
